@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Namitha M's personal portfolio website">
+  <title>Namitha M | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+  <a href="#home" class="logo">
+    <span class="logo-icon">N</span>
+    Namitha<span class="dot">.</span>
+  </a>
+
+  <button class="menu-toggle" aria-label="Toggle navigation"
+          aria-expanded="false">☰</button>
+
+  <nav class="nav-links">
+    <a href="#projects">Work</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <a href="#contact" class="talk-btn">Let's talk <span>•</span></a>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="availability">
+        <span>✧</span> OPEN TO LEARNING & OPPORTUNITIES
+      </div>
+
+      <h1>
+        I learn &amp; build<br>
+        <em>meaningful</em><br>
+        digital experiences.
+      </h1>
+
+      <p class="intro">
+        I'm <strong>Namitha</strong> — a Computer Science student
+        interested in programming, creative ideas, and building
+        useful digital experiences.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="primary-btn">
+          View my work <span>→</span>
+        </a>
+        <a href="#contact" class="text-btn">Get in touch</a>
+      </div>
+
+      <div class="hero-note">
+        <span></span> CURIOUS MIND. THOUGHTFUL WORK. CONSTANT GROWTH.
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="portrait-halo"></div>
+
+      <div class="portrait">
+        <!-- Replace this N with your photo if you have one -->
+        <div class="monogram">N<span>.</span></div>
+        <p>COMPUTER SCIENCE STUDENT</p>
+      </div>
+
+      <div class="decorative-shape">✳</div>
+
+      <div class="year-card">
+        <small>LEARNING SINCE</small>
+        <strong>2025</strong>
+      </div>
+
+      <div class="learning-badge">
+        <span></span> Always learning
+      </div>
+    </div>
+
+    <a href="#projects" class="scroll-down">
+      SCROLL TO EXPLORE <span>↓</span>
+    </a>
+  </section>
+
+  <section class="projects section" id="projects">
+    <div class="section-heading">
+      <div>
+        <small>01 — SELECTED EXPLORATIONS</small>
+        <h2>Things I've been <em>working on.</em></h2>
+      </div>
+      <p>Ideas, experiments, and projects from my learning journey.</p>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card peach">
+        <div class="project-art code-art">
+          <span class="project-number">PROJECT 01 / CODE</span>
+          <div class="code-window">
+            <div class="window-top">
+              <i></i><i></i><i></i>
+              <span>python.py</span>
+            </div>
+            <pre><span>01</span>  def solve_problem():
+<span>02</span>      keep_learning = True
+<span>03</span>      return "progress"</pre>
+          </div>
+        </div>
+        <div class="project-info">
+          <small>PYTHON · PRACTICE</small>
+          <h3>Python Practice Lab</h3>
+          <p>Programming exercises and problem-solving practice.</p>
+          <a href="#contact" aria-label="Ask about Python Practice Lab">↗</a>
+        </div>
+      </article>
+
+      <article class="project-card lavender">
+        <div class="project-art planner-art">
+          <span class="project-number">PROJECT 02 / PLANNING</span>
+          <div class="planner">
+            <small>MY WEEKLY FOCUS ✦</small>
+            <h3>Make space<br>for progress.</h3>
+            <div>□ &nbsp; Learn a new concept</div>
+            <div>□ &nbsp; Practice coding</div>
+            <div>□ &nbsp; Build something</div>
+          </div>
+        </div>
+        <div class="project-info">
+          <small>PRODUCTIVITY · CONCEPT</small>
+          <h3>Study Planner</h3>
+          <p>A concept for planning study sessions and tracking goals.</p>
+          <a href="#contact" aria-label="Ask about Study Planner">↗</a>
+        </div>
+      </article>
+
+      <article class="project-card sage">
+        <div class="project-art travel-art">
+          <span class="project-number">PROJECT 03 / CREATIVE</span>
+          <div class="sun"></div>
+          <div class="hill hill-one"></div>
+          <div class="hill hill-two"></div>
+          <div class="travel-note">
+            <small>FIELD NOTES / 001</small>
+            <h3>Go somewhere<br>new.</h3>
+            <p>Collect moments, keep stories.</p>
+          </div>
+        </div>
+        <div class="project-info">
+          <small>DESIGN · CONCEPT</small>
+          <h3>Travel Journal</h3>
+          <p>A visual journal concept for saving places and memories.</p>
+          <a href="#contact" aria-label="Ask about Travel Journal">↗</a>
+        </div>
+      </article>
+    </div>
+
+    <p class="disclaimer">
+      Replace these sample concepts with your actual projects before your review.
+    </p>
+  </section>
+
+  <section class="skills section" id="skills">
+    <div class="section-heading">
+      <div>
+        <small>02 — MY TOOLKIT</small>
+        <h2>Skills in <em>progress.</em></h2>
+      </div>
+      <p>Learning the fundamentals and improving through practice.</p>
+    </div>
+
+    <div class="skills-list">
+      <div class="skill"><span class="skill-icon python">Py</span> Python</div>
+      <div class="skill"><span class="skill-icon html">5</span> HTML</div>
+      <div class="skill"><span class="skill-icon css">3</span> CSS</div>
+      <div class="skill"><span class="skill-icon js">JS</span> JavaScript</div>
+      <div class="skill"><span class="skill-icon logic">{ }</span> Problem solving</div>
+      <div class="skill"><span class="skill-icon teamwork">✳</span> Teamwork</div>
+    </div>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="about-art">
+      <div class="about-circle"></div>
+      <div class="about-paper">
+        <small>MY APPROACH</small>
+        <h3>Stay curious.<br><em>Keep growing.</em></h3>
+        <span></span>
+        <p>One idea at a time ↗</p>
+      </div>
+      <div class="about-star">✳</div>
+    </div>
+
+    <div class="about-content">
+      <small>03 — ABOUT ME</small>
+      <h2>Student today.<br><em>Developer in the making.</em></h2>
+      <p>
+        I'm Namitha, a Computer Science student at K.G. College of Arts
+        and Science. I'm interested in programming, problem-solving,
+        and software development.
+      </p>
+      <p>
+        I enjoy exploring new technologies, learning from challenges,
+        and turning ideas into practical solutions. My goal is to
+        continue improving my skills through projects and collaboration.
+      </p>
+
+      <div class="education">
+        <span>✦</span>
+        <div>
+          <strong>B.Sc. Computer Science</strong>
+          <small>K.G. College of Arts and Science</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section" id="contact">
+    <div class="contact-panel">
+      <small>04 — SAY HELLO</small>
+      <h2>Every good thing<br>starts with <em>hello.</em></h2>
+      <p>Have an opportunity or an idea to explore? Let's connect.</p>
+
+      <div class="contact-actions">
+        <a class="primary-btn" href="mailto:25bcs239@kgcas.com">
+          Email me <span>↗</span>
+        </a>
+        <a class="outline-btn" href="tel:+918072733178">Call me</a>
+      </div>
+
+      <small class="location">COIMBATORE, TAMIL NADU, INDIA</small>
+      <span class="contact-star">✳</span>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <a href="#home" class="logo">
+    <span class="logo-icon">N</span>
+    Namitha<span class="dot">.</span>
+  </a>
+  <span class="footer-message">DESIGNED WITH INTENTION ✦</span>
+  <a href="#home" class="back-top">BACK TO TOP ↑</a>
+  <small>© <span id="year"></span> NAMITHA M</small>
+</footer>
+
+</body>
+</html>
+
